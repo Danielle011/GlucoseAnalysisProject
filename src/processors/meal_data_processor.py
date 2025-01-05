@@ -93,8 +93,8 @@ def categorize_meals(df):
         food_name = row['food_name']
         
         main_meal_keywords = [
-            '샐러드', '쌀라다', '샐러드', '수프', '국',  # salad, soup
-            '비빔밥', '볶음밥', '덮밥',  # rice dishes
+            '샐러드', '포케', '수프', '국',  # salad, soup
+            '비빔밥', '볶음밥', '덮밥', '밥' # rice dishes
             '김밥', '샌드위치',  # kimbap, sandwich
             '스테이크', '구이', '찌개',  # steak, grilled dishes, stew
             '파스타', '면', '국수',  # pasta, noodles
